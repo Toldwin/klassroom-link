@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
-  "description": "Angular 2 seed extension",
-  "version": "0.1",
- "name": "Klassroom Download",
+ "manifest_version": 2,
+ "description": "Adds a download link to Klassroom pictures. Ajout d'un lien de téléchargement aux images Klassroom.",
+ "version": "0.1",
+ "name": "Klassroom image link downloader",
  "content_scripts": [
    {
      "matches": ["https://web.klassroom.fr/*"],
