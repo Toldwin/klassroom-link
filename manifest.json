@@ -1,8 +1,8 @@
 {
  "manifest_version": 2,
- "description": "Content script adding a download link on top left of images on Klassroom site",
- "version": "0.1",
- "name": "Klassroom Download",
+ "description": "Content script adding a download link to Klassroom pictures. Ajout d'un lien de téléchargement aux images Klassroom.",
+ "version": "0.2",
+ "name": "Klassroom image link downloader",
  "content_scripts": [
    {
      "matches": ["https://web.klassroom.fr/*"],

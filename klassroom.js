@@ -11,8 +11,8 @@ function myMethod( )
 		var link = document.createTextNode("Lien de téléchargement"); 
 		// Append the text node to anchor element. 
 		aLink.appendChild(link); 
-		aLink.title = "(click droit -> enregistrer sous)";
 		aLink.href = data[i].style.backgroundImage.replaceAll('url(\"','').replaceAll('\")','');
+		aLink.title = "(click droit -> Enregistrer le lien sous...)";
 		aLink.style="position:relative;z-index:1000;"
 		data[i].appendChild(aLink); 
 	}
