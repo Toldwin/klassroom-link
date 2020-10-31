@@ -1,4 +1,5 @@
 setInterval(myMethod, 2000);
+
 function myMethod( )
 {
   data = document.getElementsByClassName("ril-image-current ril__image ril__imageDiscourager");
@@ -6,7 +7,11 @@ function myMethod( )
   var i;
   for (i = 0; i < data.length; i++) {
 	if(data[i].children.length==1){
-				
+	
+		var aSpacer = document.createElement("p");
+		aSpacer.innerText = "<br><br><br><br><br>"; 
+		data[i].appendChild(aSpacer);
+		
 		var aLink = document.createElement("a");   // Create a <button> element
 		var link = document.createTextNode("Lien de téléchargement"); 
 		// Append the text node to anchor element. 
