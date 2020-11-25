@@ -8,9 +8,11 @@ function myMethod( )
   for (i = 0; i < data.length; i++) {
 	if(data[i].children.length==1){
 	
-		var aSpacer = document.createElement("p");
-		aSpacer.innerText = "<br><br><br><br><br><br><br><br><br><br>"; 
-		data[i].appendChild(aSpacer);
+		data[i].appendChild(document.createElement('br'));
+		data[i].appendChild(document.createElement('br'));
+		data[i].appendChild(document.createElement('br'));
+		data[i].appendChild(document.createElement('br'));
+		data[i].appendChild(document.createElement('br'));
 		
 		var aLink = document.createElement("a");   // Create a <button> element
 		var link = document.createTextNode("Lien de téléchargement"); 
