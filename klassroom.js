@@ -9,7 +9,7 @@ function myMethod( )
 	if(data[i].children.length==1){
 	
 		var aSpacer = document.createElement("p");
-		aSpacer.innerText = "<br><br><br><br><br>"; 
+		aSpacer.innerText = "<br><br><br><br><br><br><br><br><br><br>"; 
 		data[i].appendChild(aSpacer);
 		
 		var aLink = document.createElement("a");   // Create a <button> element
