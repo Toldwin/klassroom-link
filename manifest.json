@@ -5,7 +5,7 @@
  "name": "Klassroom image link downloader",
  "content_scripts": [
    {
-     "matches": ["https://web.klassroom.fr/*"],
+     "matches": ["https://fr.klass.ly/*"],
 	 "all_frames": true,
 	 "run_at": "document_idle",
      "js": ["klassroom.js"]
